@@ -1,4 +1,4 @@
-# hamloy-com
+# Hamloy
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,123 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-hamloy-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://hamloy.com/
+Hamloy provides a platform to coordinate coding agents, offering a unified overview and shared planning for teams. It enables collaborative workflow management, real‑time status tracking, and centralized control of multiple AI‑driven coding assistants, enhancing productivity and team alignment across projects.
+
+**Areas:** Company
+
+## Hamloy on APIs.io
+
+Everything profiled for Hamloy is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hamloy-com/](https://apis.io/providers/hamloy-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Hamloy REST API](https://apis.io/apis/hamloy-com/hamloy-rest-api/) — Read and change a project's tasks, requests and questions from a script, a CI job or another app, with an API token. Every endpoint, with examples.
+- [Hamloy API](https://apis.io/apis/hamloy-com/hamloy-com-api/) — Hamloy API as documented publicly: 15 operations. Contract generated from the documentation by API Evangelist (2026-11-11); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiV1ProjectsProjectItemsBK3F9Response](https://apis.io/schemas/hamloy-com/hamloy-com-get-api-v1-projects-project-items-bk3-f9-response/)
+- [GetProjectsIdItemsResponse](https://apis.io/schemas/hamloy-com/hamloy-com-get-projects-id-items-response/)
+- [PatchApiV1ProjectsProjectItemsBK3F9Request](https://apis.io/schemas/hamloy-com/hamloy-com-patch-api-v1-projects-project-items-bk3-f9-request/)
+- [PatchProjectsIdItemsKeyRequest](https://apis.io/schemas/hamloy-com/hamloy-com-patch-projects-id-items-key-request/)
+- [PostApiV1ProjectsProjectItemsRequest](https://apis.io/schemas/hamloy-com/hamloy-com-post-api-v1-projects-project-items-request/)
+- [PostProjectsIdItemsRequest](https://apis.io/schemas/hamloy-com/hamloy-com-post-projects-id-items-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Hamloy Com Context](https://apis.io/jsonld/hamloy-com/hamloy-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Hamloy API Rules](https://apis.io/rules/hamloy-com/hamloy-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Hamloy Authentication](https://apis.io/security/hamloy-com/hamloy-com-authentication/)
+- [Hamloy Domain Security](https://apis.io/security/hamloy-com/hamloy-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Hamloy Plans Pricing](https://apis.io/plans/hamloy-com/hamloy-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://hamloy.com/)
+- [Documentation](https://hamloy.com/docs)
+- [Pricing](https://hamloy.com/pricing)
+- [Blog](https://hamloy.com/blog)
+- [Security](https://hamloy.com/security)
+- [Terms of service](https://hamloy.com/terms)
+- [Privacy policy](https://hamloy.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 49.1** — developing · rubric 0.27.0 · scored 2026-11-11
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 53.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 60.0 |
+
+**Agent readiness 39.0** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | — |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hamloy-com/](https://apis.io/providers/hamloy-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Hamloy: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hamloy-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
